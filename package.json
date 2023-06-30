@@ -5,6 +5,11 @@
   "repository": "https://github.com/ciarandg/clojurescript-template",
   "author": "Ciaran De Groot <ciaran.deg@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "shadow-cljs compile app",
+    "dev": "shadow-cljs watch app",
+    "start": "shadow-cljs server"
+  },
   "devDependencies": {
     "shadow-cljs": "2.24.1"
   }
