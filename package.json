@@ -1,7 +1,10 @@
 {
   "name": "clojurescript-template",
   "version": "0.1.0",
-  "private": true,
+  "main": "src/main/com/ciarandg/app.cljs",
+  "repository": "https://github.com/ciarandg/clojurescript-template",
+  "author": "Ciaran De Groot <ciaran.deg@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "shadow-cljs": "2.24.1"
   }
