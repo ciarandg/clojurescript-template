@@ -1,4 +1,4 @@
-(ns acme.frontend.app)
+(ns com.ciarandg.app)
 
 (defn init []
   (println "Hello World"))
